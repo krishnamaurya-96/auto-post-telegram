@@ -1,0 +1,30 @@
+name: Auto Post to Telegram
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # Schedule to run daily at 10 AM UTC, adjust as per your need
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Replace with your Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install gspread oauth2client pytz telegram
+
+    - name: Run Python script
+      run: python path/to/your/script.py  # Replace with your script path
+      env:
+        API_TOKEN: ${{ secrets.API_TOKEN }}  # Replace with your Telegram Bot API token (stored in GitHub Secrets)
+        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}  # Replace with your Google Sheet ID (stored in GitHub Secrets)
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}  # Replace with JSON key file content (stored in GitHub Secrets)
