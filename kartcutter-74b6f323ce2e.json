@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kartcutter",
+  "private_key_id": "74b6f323ce2ef2c847245816599aadb7e1219202",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCv01vg7s2Gi1c9\nrgh2y92cEtb5CC0EH7T36XXdf0HamO30u13rdFS7ewk60jhTLdCITXBo9zL2ymGa\nCKZMFXarw6oi+2cDcQxnAdHba5j0up/suWnAKZih6dxRgRyvLVUYIsBXDwnHN2W/\nJEB75THOP8lIQaXVQdHcN4GY6W+2KNd3e9x4cP1zoi52Y2U8wPCcCrsGGQYuASdt\nNVHGHoUmbVzbri6q0kb5HU24NrOIqpu+o38Lnv/DNVpmw7x3RVevgF/WqhHeH91l\nL2aN4GDmCg4zSZt4lLzX98AOhLIYldnwDXuefG1H1VpGYvwogcAuxZJ7AqDI3SeZ\nK3VHIjcpAgMBAAECggEAAa67WwC8atyKMjvB3RP22mLYxH6cr0TEm2tUKcSciZFV\nYTZQzNHEazXfQP0yTxapzFm3XDdikreD+kogABIXHGFgz0X9UDkq+SpfvhW+jtFh\nYE3NUmqWr65eyB3jVSIEX2W0iWPws0Ow5gS2Cql6RRYmejOv0oWQ37NdR1+s5liW\n8fGTn7Q1NCwBjs19FmiBen1asIbLxp0tvUJXn/GC4GBiKs3szoDTh0j4OpGe0o2s\nVldo/r4vx/Y/3JYKVPdiOZtcFcSsD3zvzg/5ecGe9EoRO4pM7a/FBfZNdkQio73v\n7b6FsnIuXRj6PCJvfp17SnP4hBgNaRkiD+PzXJ+qoQKBgQDboaZXW4HR3AAbaiNP\naabnb/XzD73xI0jmQEoWyfp8xl+M7VS8TuvVZYa+AEsme6O3Ovy7vYYKQoFvH65B\ncRzhRCnr9IW59Gv7rhao2TvBHtW6KJIeP86wDE+KyG9tMwy9vfyK2LwW+o/PlrPl\nn9TOAMbGPGiW+n+3bLLtJT03WQKBgQDM8L7mFn4D508TeQ5upjkqi0eMecKJ19De\nEgv0MG+0QEWYQhLTB1Q3CV+xudGNbc/Z6mU2UCAiKPLabNIe8+fEXj2od83VwWo0\nidtFimVuXKLWnuDaJx60wVGzmkuEGDj5DrdN5RbZqv88t0nX9Qp2EvKVw8nbSr6v\nyAyqRJ7UUQKBgQCrXCNJk1blow3eVeB47EjR2BQAca7T/qC5LT3hK/Oo+KnCbcWo\nKrdsRwtrIRWBUAQ7SOW5oTR8usj8J66w1o0e4S0IMT9JCABcXMbHNL6ffexpk4/1\n0/jyeJhzAtGVVLhDLoFk35dZImOkJsPzi9HgbNCqCKXd7lJJjaDI0D5D+QKBgQC2\n6pGYT6790PB1UvEctWQEovejW/HUkjmsW7MrqiepXExBj4e5rqrtzIIK4O02LDL+\nLwVTKsTjeGT5q3MHiW7th6fEu9mN1enzJq/9K39It4nnwTqzu4LelkVT5n1MU0pW\nkVnuPnDcqpDRIk7YX6+Mn3DBV1TNU7NKtWUIe+K/YQKBgDMZW7TEcq5+glE4JQAO\nqoISrhd5Azpgu0bhk89tx0/pyaVeHQ89g27Ux38yQbDbMv8yyLqwZs+XFb3v+IsZ\n2dYpF9OcYn47bJiBcq85WnEUbnmbH1e23gg81VnXBoWFeWqZghJkK3iHbMM7KksM\nx7tryzQ6cvp3DXUNcgoSiO33\n-----END PRIVATE KEY-----\n",
+  "client_email": "cartcutter@kartcutter.iam.gserviceaccount.com",
+  "client_id": "117511997359473005030",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cartcutter%40kartcutter.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
