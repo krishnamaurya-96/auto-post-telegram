@@ -23,7 +23,7 @@ jobs:
         pip install gspread oauth2client pytz telegram
 
     - name: Run Python script
-      run: python path/to/your/script.py  # Replace with your script path
+      run: python https://github.com/krishnamaurya-96/auto-post-telegram/blob/main/bot.py  # Replace with your script path
       env:
         API_TOKEN: ${{ secrets.API_TOKEN }}  # Replace with your Telegram Bot API token (stored in GitHub Secrets)
         SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}  # Replace with your Google Sheet ID (stored in GitHub Secrets)
