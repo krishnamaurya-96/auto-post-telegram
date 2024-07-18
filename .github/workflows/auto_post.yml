@@ -2,7 +2,7 @@ name: Auto Post to Telegram
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Schedule to run daily at 10 AM UTC, adjust as per your need
+    - cron: '7 10 * * *'  # Schedule to run daily at 10 AM UTC, adjust as per your need
 
 jobs:
   build:
